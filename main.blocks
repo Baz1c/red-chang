@@ -4,4 +4,10 @@
         . . # . . 
         . # . # . 
         # . . . #
-        `</field><next><block type="playMelody" id="hzSX|-k1f-}LdAUVrEGR"><value name="melody"><shadow type="melody_editor" id="E|Mwa?,P$1gSXH(]X7~g"><field name="melody">"- A G F - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Nl:P$ziDpdQApMrJ6ROA"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">125</field></shadow></value></block></next></block></statement></block></next></block></next></block></statement></block></xml>
+        `</field><next><block type="playMelody" id="hzSX|-k1f-}LdAUVrEGR"><value name="melody"><shadow type="melody_editor" id="E|Mwa?,P$1gSXH(]X7~g"><field name="melody">"- A G F - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Nl:P$ziDpdQApMrJ6ROA"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">125</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="}SZtKCp#9k(?@Pyiu2_c"><value name="IF0"><shadow type="logic_boolean" id="zbxi.b@hv@sKt]y44S5W"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="82T/^!;`x#C7r6{r?||T"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="u3Zi=%.J]u.XXyYp?LUY"><field name="NUM">0</field></shadow><block type="variables_get" id="jY=HA-c{B6(;F2HTS5m%"><field name="VAR" id="o5?c)Hym:0rn#$,J/FLY">Light Levels</field></block></value><value name="B"><shadow type="math_number" id="v-XVH)cGax~7X1|1t:%;"><field name="NUM">150</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="C}Vl.ONn5(^te3W/)!Lz"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="playMelody" id="DM`WSO$LXyr0_|Fu#r}g"><value name="melody"><shadow type="melody_editor" id="e$1E_u)g/{R@kr+_VwBL"><field name="melody">"B C5 F E D C - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="/j:whnkZt7GVZ,G[0jFc"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></next></block></next></block></next></block></statement></block></xml>

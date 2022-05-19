@@ -13,4 +13,14 @@ basic.forever(function () {
             `)
         music.playMelody("- A G F - - - - ", 125)
     }
+    if (Light_Levels >= 150) {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        music.playMelody("B C5 F E D C - - ", 120)
+    }
 })
